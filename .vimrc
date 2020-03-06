@@ -5,10 +5,8 @@
 " spawlaczyk97gmail.com
 "
 " vimrc config file
-"
-" ===================================
+"" ===================================
 
-" General ===========================
 set number
 set linebreak
 set showbreak=+++
@@ -28,13 +26,13 @@ set smarttab                    " insert tabs on the start of a line according t
                                 "    shiftwidth, not tabstop
 
 " search options
-"set hlsearch                    " highlight search terms
+"set hlsearch                   " highlight search terms
 set nohlsearch
 set incsearch                   " show search matches as you type
 
-set ruler" show the cursor position
-syntax on               " syntax highlighting
-set showmode		" always show what mode we're currently editing in
+set ruler						" show the cursor position
+syntax on						" syntax highlighting
+set showmode					" always show what mode we're currently editing in
 
 " white space characters
 set nolist
